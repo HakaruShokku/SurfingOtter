@@ -633,9 +633,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 99542ba1-96dd-466f-98b4-837bcb5f380b
-  projectName: SurfingOtter (1)
-  organizationId: hakarushokku
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
