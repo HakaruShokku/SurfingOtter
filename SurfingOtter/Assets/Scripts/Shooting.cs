@@ -79,12 +79,22 @@ public class Shooting : MonoBehaviour
 
     void ArmRotation()
     {
-        Vector3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
-        Vector3 direction = mouseInWorld - transform.position;
-        Quaternion rotation = Quaternion.LookRotation(direction);
-        if (rotation.z < 1f && rotation.z > -.1)
-        {
-            transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
-        }
+
+        // subtracting the position of the player from the mouse position
+        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        difference.Normalize();     // normalizing the vector. Meaning that all the sum of the vector will be equal to 1
+
+        float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;   // find the angle in degrees
+        transform.rotation = Quaternion.Euler(0f, 0f, rotZ);
+
+
+        //Vector3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
+        //Vector3 direction = mouseInWorld - transform.position;
+        //Quaternion rotation = Quaternion.LookRotation(direction);
+        //if (rotation.z < 1f && rotation.z > -.1)
+        //{
+        //    transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
+        //    Debug.Log(gunBarrel.transform.position);
+        //}
     }
 }

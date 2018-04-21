@@ -6,6 +6,7 @@ TagManager:
   tags:
   - WordItem
   - Ground
+  - Block
   layers:
   - Default
   - TransparentFX

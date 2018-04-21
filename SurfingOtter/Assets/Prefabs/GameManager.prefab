@@ -58,10 +58,8 @@ MonoBehaviour:
   - {fileID: 4912635411114728, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
   - {fileID: 4950024937481256, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
   boxes:
-  - {fileID: 1846247240430418, guid: 01d36fa66cacf814581500585d84ab9a, type: 2}
-  - {fileID: 1563247283002634, guid: fa93594889de05c49a8d8632eca267ee, type: 2}
-  - {fileID: 1260688566206486, guid: a23cd6b7fd942e546852bbf96b56d634, type: 2}
-  - {fileID: 1208485219846662, guid: 2d757a56a2ae47c448dd3d9b15e7d155, type: 2}
+  - {fileID: 1129699103944034, guid: bc82c8afb75025b49b48927e0643903b, type: 2}
+  - {fileID: 1129699103944034, guid: bc82c8afb75025b49b48927e0643903b, type: 2}
 --- !u!114 &114960275672034898
 MonoBehaviour:
   m_ObjectHideFlags: 1
