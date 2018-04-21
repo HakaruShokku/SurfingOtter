@@ -283,7 +283,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\GameManager.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\SceneManage.cs" />
     <Compile Include="Assets\Scripts\SpawningBlocks.cs" />
     <Compile Include="Assets\Scripts\WordItem.cs" />
   </ItemGroup>
