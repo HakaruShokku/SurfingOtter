@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - WordItem
+  - block
+  - RBullet
+  - PBullet
+  - DBullet
   layers:
   - Default
   - TransparentFX
