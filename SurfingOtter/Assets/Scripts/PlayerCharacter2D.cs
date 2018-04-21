@@ -97,6 +97,7 @@ public class PlayerCharacter2D : MonoBehaviour {
     {
         if(col.gameObject.tag == "Ground")
         {
+            Debug.Log("hit the ground");
             isGrounded = true;
             //anim.SetBool("isGrounded", true);
         }
