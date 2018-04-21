@@ -3,16 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - WordItem
-<<<<<<< HEAD
-  - block
-  - RBullet
-  - PBullet
-  - DBullet
-=======
-  - Ground
->>>>>>> 5ce315b2f49a684e9e110bae0a88e6f96c85b279
+  tags: []
   layers:
   - Default
   - TransparentFX
