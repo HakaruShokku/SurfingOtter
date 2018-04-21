@@ -52,10 +52,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn_locations:
-  - {fileID: 4276360596994446, guid: 94cf9ee43d917c1408b5277f59e79a79, type: 2}
-  - {fileID: 4665333003658800, guid: 94cf9ee43d917c1408b5277f59e79a79, type: 2}
-  - {fileID: 4750790228636156, guid: 94cf9ee43d917c1408b5277f59e79a79, type: 2}
-  - {fileID: 4874317055518812, guid: 94cf9ee43d917c1408b5277f59e79a79, type: 2}
+  - {fileID: 4739982098411796, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
+  - {fileID: 4835555496749954, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
+  - {fileID: 4912635411114728, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
+  - {fileID: 4950024937481256, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
   boxes:
   - {fileID: 1084443713094512, guid: 0acbd635f8a220b4aa0892ee84e186f5, type: 2}
   - {fileID: 1563247283002634, guid: fa93594889de05c49a8d8632eca267ee, type: 2}

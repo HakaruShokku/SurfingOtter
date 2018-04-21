@@ -283,12 +283,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\GameManager.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\SpawningBlocks.cs" />
-=======
     <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\SpawningBlocks.cs" />
     <Compile Include="Assets\Scripts\WordItem.cs" />
->>>>>>> 0d3c9f020c8dcca001b184b3ace9556210f0bb1a
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
