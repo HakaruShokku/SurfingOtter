@@ -278,6 +278,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d4a1bdbfb848d6b499de04ecc06f2a66, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &715252996
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 184.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 139
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935724050547074, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0a65607c6fd8efc4e8deb4eab84dbbc8, type: 2}
+  m_IsPrefabParent: 0
 --- !u!114 &749134048 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114332409941607568, guid: 63b76b526f2a4424ea7f7c3b625f68e0,
@@ -403,7 +445,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.5, y: 0}
-  - {x: 28.474537, y: 0.0172925}
+  - {x: 79.73918, y: 0.05619812}
 --- !u!4 &1444260083
 Transform:
   m_ObjectHideFlags: 0
