@@ -19,7 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4337551768844488}
-  - component: {fileID: 114631426458174414}
+  - component: {fileID: 114953352379561464}
+  - component: {fileID: 114960275672034898}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -40,7 +41,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114631426458174414
+--- !u!114 &114953352379561464
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -57,7 +58,19 @@ MonoBehaviour:
   - {fileID: 4912635411114728, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
   - {fileID: 4950024937481256, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
   boxes:
-  - {fileID: 1084443713094512, guid: 0acbd635f8a220b4aa0892ee84e186f5, type: 2}
+  - {fileID: 1846247240430418, guid: 01d36fa66cacf814581500585d84ab9a, type: 2}
   - {fileID: 1563247283002634, guid: fa93594889de05c49a8d8632eca267ee, type: 2}
   - {fileID: 1260688566206486, guid: a23cd6b7fd942e546852bbf96b56d634, type: 2}
-  - {fileID: 1989100737046372, guid: fe3210742a75cf74a96ccafe90305fe9, type: 2}
+  - {fileID: 1208485219846662, guid: 2d757a56a2ae47c448dd3d9b15e7d155, type: 2}
+--- !u!114 &114960275672034898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1639043341085626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c32e6dce75113c4c8810713a273deac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pause: {fileID: 0}

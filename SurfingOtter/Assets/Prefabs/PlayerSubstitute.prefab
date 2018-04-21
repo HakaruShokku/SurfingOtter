@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23429772092337886}
   - component: {fileID: 50315961987693280}
   - component: {fileID: 114412670155297406}
+  - component: {fileID: 114062466207878174}
   - component: {fileID: 70167700955469078}
   m_Layer: 0
   m_Name: PlayerSubstitute
@@ -38,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1756647033477104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 178.09999, y: 136.51, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalPosition: {x: 178.882, y: 136.51, z: 0}
+  m_LocalScale: {x: 0.98757935, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -104,7 +105,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 4
 --- !u!70 &70167700955469078
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -120,6 +121,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &114062466207878174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1756647033477104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192891c1b82633c46b28e7c3fecf15e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 200
+  rig: {fileID: 50315961987693280}
 --- !u!114 &114412670155297406
 MonoBehaviour:
   m_ObjectHideFlags: 1
