@@ -282,8 +282,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\GameManager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\cody\Scripts\DestroyTimer.cs" />
+    <Compile Include="Assets\Scripts\cody\Scripts\PlayerCharacter2D.cs" />
+    <Compile Include="Assets\Scripts\cody\Scripts\PlayerMobility.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\SceneManage.cs" />
