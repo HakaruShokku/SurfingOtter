@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     public Transform gunBarrel;         // To hold the transform of the empty object, gun barrel
     public Rigidbody2D bulletPrefab;      // To hold the prefab of the push bullet
     public Text change_bullet;
+    public AudioSource shootsound;
     public int switching_bullet;
 
     public int bulletCount;
@@ -21,6 +22,8 @@ public class Shooting : MonoBehaviour
         switching_bullet = 1;
         change_bullet.text = "Bullet Push";
 
+        //shootsound = GetComponent<AudioSource>();
+        
         bulletCount = 5;
     }
 
@@ -51,9 +54,10 @@ public class Shooting : MonoBehaviour
             }
 
         }
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)&&!shootsound.isPlaying)
         {
             ShootBullet();
+            shootsound.Play();
         }
     }
 
@@ -85,8 +89,8 @@ public class Shooting : MonoBehaviour
             bulletInstance.AddForce(gunBarrel.right * 1000);
 
             bulletInstance.GetComponent<Collider2D>().isTrigger = true;
-            bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 255);
-            bulletInstance.AddForce(gunBarrel.right * 1000);
+            //bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 255);
+            //bulletInstance.AddForce(gunBarrel.right * 1000);
         }
         if (switching_bullet == 3&&bulletCount>0)
         {
