@@ -16,10 +16,10 @@ public class SceneManage : MonoBehaviour {
 		
 	}
 
-    //public void Quit()
-    //{
-        
-    //}
+    public void Quit()
+    {
+        Application.Quit();
+    }
     // Update is called once per frame
     void Update () {
 		
