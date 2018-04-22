@@ -113,6 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &12719428
 Prefab:
   m_ObjectHideFlags: 0
@@ -2959,6 +2960,8 @@ Camera:
   m_PrefabParentObject: {fileID: 20334805189991744, guid: e23a68fb41ec4444090dc252753c07b0,
     type: 2}
   m_PrefabInternal: {fileID: 126841057}
+=======
+>>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
 --- !u!1 &962116123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +2979,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
 --- !u!81 &962116124
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3040,6 +3047,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &964049295
 Prefab:
   m_ObjectHideFlags: 0
@@ -7017,3 +7025,5 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a34f1217c3f8a5a419d79d541ff26458, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
