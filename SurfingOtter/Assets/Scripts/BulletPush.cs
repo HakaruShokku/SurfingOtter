@@ -48,6 +48,7 @@ public class BulletPush : MonoBehaviour {
             if(shootingMode==3)
             {
                 Destroy(collision.gameObject);
+                Destroy(gameObject);
             }
         }
     }
