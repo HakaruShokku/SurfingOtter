@@ -25,7 +25,7 @@ public class PlayerCharacter2D : MonoBehaviour {
 	void Start () {
         isGrounded = true;
         //shotTimer = false;
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

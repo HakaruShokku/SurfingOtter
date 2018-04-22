@@ -23,9 +23,14 @@ public class Shooting : MonoBehaviour
         switching_bullet = 1;
         change_bullet.text = "Bullet Push";
 
+
         //shootsound = GetComponent<AudioSource>();
         Player = GameObject.Find("Player");
         facing = true;
+
+        shootsound = GetComponent<AudioSource>();
+        
+
         bulletCount = 5;
     }
 
@@ -79,6 +84,7 @@ public class Shooting : MonoBehaviour
 
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 255, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
+            //Destroy(bulletInstance, 10f);
         }
         if (switching_bullet == 2)
         {

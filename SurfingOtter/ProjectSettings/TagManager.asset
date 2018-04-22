@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Block
   - Shooter
+  - block
+  - RBullet
   layers:
   - Default
   - TransparentFX
@@ -44,4 +46,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 3
+    uniqueID: 2425380851
+    locked: 0
+  - name: 2
+    uniqueID: 2077114237
+    locked: 0
+  - name: 1
+    uniqueID: 641559433
     locked: 0

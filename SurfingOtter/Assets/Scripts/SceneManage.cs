@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour {
 
+    public string toLoad;
+
 	// Use this for initialization
     public void LoadLevel(string valueName)
     {
@@ -22,4 +24,9 @@ public class SceneManage : MonoBehaviour {
     void Update () {
 		
 	}
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        LoadLevel(toLoad);
+    }
 }
