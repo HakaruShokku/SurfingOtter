@@ -16,7 +16,6 @@ public class BulletPush : MonoBehaviour {
     {
         if(collision.gameObject.tag == "Block")
         {
-<<<<<<< HEAD
             if (shootingMode == 1)
             {
                 collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.forward * 1000);
@@ -40,19 +39,15 @@ public class BulletPush : MonoBehaviour {
 
                 //Destroy(gameObject);
             }
-=======
->>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
+
             if(shootingMode==2)
             {
                 Debug.Log("Rotating");
                 collision.transform.Rotate(0, 0, 90);
                 Destroy(gameObject);
             }
-<<<<<<< HEAD
-            if(shootingMode==3)
-=======
+
             if (shootingMode == 3)
->>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
             {
                 Destroy(collision.gameObject);
                 Destroy(gameObject);

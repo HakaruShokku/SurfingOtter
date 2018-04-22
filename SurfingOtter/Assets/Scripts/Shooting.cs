@@ -10,10 +10,8 @@ public class Shooting : MonoBehaviour
     public Rigidbody2D bulletPrefab;      // To hold the prefab of the push bullet
     public Text change_bullet;
     public int switching_bullet;
-<<<<<<< HEAD
-=======
+
     public int bulletCount;
->>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
 
     private Rigidbody2D bulletInstance;
 
@@ -22,10 +20,8 @@ public class Shooting : MonoBehaviour
     {
         switching_bullet = 1;
         change_bullet.text = "Bullet Push";
-<<<<<<< HEAD
-=======
+
         bulletCount = 5;
->>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
     }
 
     // Update is called once per frame
@@ -69,17 +65,16 @@ public class Shooting : MonoBehaviour
         if (switching_bullet == 1)
         {
             bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
-<<<<<<< HEAD
-=======
+
             bulletInstance.GetComponent<Collider2D>().isTrigger = false;
->>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
+
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 255, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
         if (switching_bullet == 2)
         {
             bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
-<<<<<<< HEAD
+
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 255);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
@@ -88,7 +83,7 @@ public class Shooting : MonoBehaviour
             bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 0, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
-=======
+
             bulletInstance.GetComponent<Collider2D>().isTrigger = true;
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 255);
             bulletInstance.AddForce(gunBarrel.right * 1000);
@@ -100,7 +95,7 @@ public class Shooting : MonoBehaviour
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 0, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
             bulletCount--;
->>>>>>> 38ee5c90b90a52c0a5809ca4827258ef467e5054
+
         }
     }
 
