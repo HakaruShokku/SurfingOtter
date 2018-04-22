@@ -74,6 +74,7 @@ public class Shooting : MonoBehaviour
 
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 255, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
+            //Destroy(bulletInstance, 10f);
         }
         if (switching_bullet == 2)
         {

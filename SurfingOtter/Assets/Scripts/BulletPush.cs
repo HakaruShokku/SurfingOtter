@@ -10,6 +10,10 @@ public class BulletPush : MonoBehaviour {
     private void Start()
     {
         shootingMode = GameObject.FindWithTag("Shooter").GetComponent<Shooting>().switching_bullet;
+        if(shootingMode==1)
+        {
+            Destroy(gameObject, 3f);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
