@@ -17,11 +17,25 @@ public class PlayerCharacter2D : MonoBehaviour {
     //bool shotTimer;
     //float shootTimer = 0.2f;
 
+    private static PlayerCharacter2D instance;
+
     // Use this for initialization
 	void Start () {
         isGrounded = true;
         //shotTimer = false;
 	}
+
+    public static PlayerCharacter2D Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = GameObject.FindObjectOfType<Player>;
+            }
+            return instance;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -98,6 +112,11 @@ public class PlayerCharacter2D : MonoBehaviour {
         if(col.gameObject.tag == "Ground")
         {
             Debug.Log("hit the ground");
+            isGrounded = true;
+            //anim.SetBool("isGrounded", true);
+        } else if (col.gameObject.tag == "Block")
+        {
+            Debug.Log("hit the brick");
             isGrounded = true;
             //anim.SetBool("isGrounded", true);
         }
