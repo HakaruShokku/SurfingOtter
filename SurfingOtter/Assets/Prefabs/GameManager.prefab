@@ -134,13 +134,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn_locations:
-  - {fileID: 4739982098411796, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
-  - {fileID: 4835555496749954, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
-  - {fileID: 4912635411114728, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
-  - {fileID: 4950024937481256, guid: 0cf1804e00ce1494381aeb4b545122ba, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   boxes:
+  - {fileID: 1846247240430418, guid: 01d36fa66cacf814581500585d84ab9a, type: 2}
+  - {fileID: 1208485219846662, guid: 2d757a56a2ae47c448dd3d9b15e7d155, type: 2}
   - {fileID: 1478681539493110, guid: edaa7429cf4a82a4ea574fe2533c2238, type: 2}
   - {fileID: 1190400359314702, guid: 6e29b1533214a1f45a88315f1dbe1e32, type: 2}
+  - {fileID: 1514679968110210, guid: 2a740854c8617484d998d3174af3d472, type: 2}
 --- !u!114 &114960275672034898
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -31,8 +31,8 @@ public class SpawningBlocks : MonoBehaviour {
         // once spawn_box_timer reaches 0, then spawn a new box.
         if(spawn_box_timer <= 0)
         {
-            SpawnBox();         // spawn box
-            spawn_box_timer = 180;    // return timer of the spawn_box_timer
+            SpawnBox();             // spawn box
+            spawn_box_timer = 180;  // return timer of the spawn_box_timer
         }
     }
     
@@ -42,7 +42,7 @@ public class SpawningBlocks : MonoBehaviour {
     void SpawnBox()
     {
         randomBox = Random.Range(0, boxes.Length);                                          // Get a random int for the box
-        current_spawn_location = Random.Range(0, boxes.Length);                             // Get a random int for the spawn location
+        current_spawn_location = Random.Range(0, spawn_locations.Length);                   // Get a random int for the spawn location
         box_placement = spawn_locations[current_spawn_location].position;                   // initialize the spawn location position
         boxInstance = Instantiate(boxes[randomBox], box_placement, Quaternion.identity);    // Instantiate box, and save in boxInstance.
     }

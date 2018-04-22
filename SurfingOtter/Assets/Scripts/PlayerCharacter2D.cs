@@ -13,6 +13,7 @@ public class PlayerCharacter2D : MonoBehaviour {
     //public Animator anim;
     public float jumpForce;
     public Rigidbody2D rig;
+    public Transform spawnBar;
     bool isGrounded;
     //bool shotTimer;
     //float shootTimer = 0.2f;
@@ -28,6 +29,9 @@ public class PlayerCharacter2D : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        spawnBar.transform.position = new Vector2(transform.position.x + 5f, spawnBar.transform.position.y);
+
         //if (shotTimer)
         //{
         //    shootTimer -= Time.deltaTime;

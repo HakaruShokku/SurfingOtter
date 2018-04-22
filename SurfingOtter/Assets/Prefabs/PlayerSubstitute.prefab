@@ -361,6 +361,7 @@ MonoBehaviour:
   speed: 5
   jumpForce: 200
   rig: {fileID: 50315961987693280}
+  spawnBar: {fileID: 0}
 --- !u!114 &114275166898456520
 MonoBehaviour:
   m_ObjectHideFlags: 1
