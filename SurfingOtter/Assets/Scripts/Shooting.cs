@@ -22,7 +22,7 @@ public class Shooting : MonoBehaviour
         switching_bullet = 1;
         change_bullet.text = "Bullet Push";
 
-        //shootsound = GetComponent<AudioSource>();
+        shootsound = GetComponent<AudioSource>();
         
         bulletCount = 5;
     }
