@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerDeath : MonoBehaviour {
     
     private GameObject player;
-    private Vector2 playerStartPosition;
+    private Vector3 playerStartPosition;
     public AudioSource deathsound;
     private bool death;
     private int lives;
