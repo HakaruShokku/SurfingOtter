@@ -24,18 +24,6 @@ public class PlayerCharacter2D : MonoBehaviour {
         isGrounded = true;
         //shotTimer = false;
 	}
-
-    public static PlayerCharacter2D Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                instance = GameObject.FindObjectOfType<Player>;
-            }
-            return instance;
-        }
-    }
 	
 	// Update is called once per frame
 	void Update () {
