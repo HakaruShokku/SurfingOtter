@@ -55,7 +55,7 @@ public class healthBar : MonoBehaviour {
             
             float speedOfBlock = collision.relativeVelocity.magnitude;
 
-            if (contactPoint.y+yHitZone < center.y && speedOfBlock > 3)
+            if (contactPoint.y+yHitZone < center.y && speedOfBlock > 2)
             {
                 Debug.Log("Player was hit at " + contactPoint.y);
                 takeDamage(2);

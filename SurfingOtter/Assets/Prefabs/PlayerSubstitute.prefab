@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 50315961987693280}
   - component: {fileID: 114412670155297406}
   - component: {fileID: 114062466207878174}
+  - component: {fileID: 114275166898456520}
   - component: {fileID: 70167700955469078}
   m_Layer: 0
   m_Name: PlayerSubstitute
@@ -279,6 +280,20 @@ MonoBehaviour:
   speed: 5
   jumpForce: 200
   rig: {fileID: 50315961987693280}
+--- !u!114 &114275166898456520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1756647033477104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0536c33e14787a6479f72db7fd7c73c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealthBar: {fileID: 0}
+  health: 3
+  yHitZone: 0.65
 --- !u!114 &114412670155297406
 MonoBehaviour:
   m_ObjectHideFlags: 1
