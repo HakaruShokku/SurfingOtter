@@ -7,6 +7,7 @@ public class PlayerDeath : MonoBehaviour {
     
     private GameObject player;
     private Vector2 playerStartPosition;
+    public AudioSource deathsound;
     private bool death;
     private int lives;
     
@@ -18,17 +19,19 @@ public class PlayerDeath : MonoBehaviour {
         playerStartPosition = player.transform.position;
         death = false;
         lives = 3;
-	}
+        deathsound = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if(player.transform.position.y < 134f)
         {
             death = true;
+            deathsound.Play();
         }
         if (death)
         {
-            if(lives > 0)
+            if (lives > 0)
             {
                 lives--;
                 player.transform.position = playerStartPosition;
@@ -57,6 +60,7 @@ public class PlayerDeath : MonoBehaviour {
             if (contactPoint.y + yHitZone < center.y && speedOfBlock > 2)
             {
                 death = true;
+                deathsound.Play();
             }
         }
     }
