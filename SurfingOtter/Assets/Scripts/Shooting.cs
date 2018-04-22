@@ -10,6 +10,7 @@ public class Shooting : MonoBehaviour
     public Rigidbody2D bulletPrefab;      // To hold the prefab of the push bullet
     public Text change_bullet;
     public int switching_bullet;
+    public int bulletCount;
 
     private Rigidbody2D bulletInstance;
 
@@ -18,6 +19,7 @@ public class Shooting : MonoBehaviour
     {
         switching_bullet = 1;
         change_bullet.text = "Bullet Push";
+        bulletCount = 5;
     }
 
     // Update is called once per frame
@@ -61,20 +63,24 @@ public class Shooting : MonoBehaviour
         if (switching_bullet == 1)
         {
             bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance.GetComponent<Collider2D>().isTrigger = false;
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 255, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
         if (switching_bullet == 2)
         {
             bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance.GetComponent<Collider2D>().isTrigger = true;
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 255);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
-        if (switching_bullet == 3)
+        if (switching_bullet == 3&&bulletCount>0)
         {
             bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance.GetComponent<Collider2D>().isTrigger = true;
             bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 0, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
+            bulletCount--;
         }
     }
 
