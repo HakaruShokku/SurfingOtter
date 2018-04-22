@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 114641109168766256}
   m_Layer: 0
   m_Name: ArmJoint
-  m_TagString: Untagged
+  m_TagString: Shooter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,11 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunBarrel: {fileID: 4792411016477686}
-  bulletPush: {fileID: 50261380589289952, guid: fa93594889de05c49a8d8632eca267ee,
-    type: 2}
-  bulletRotate: {fileID: 50035738239653504, guid: 88ba027df9dfea74f8ead03d4affbb32,
-    type: 2}
-  bulletDestroy: {fileID: 50833031076754550, guid: cb7a38c55af8f0647878b30c71feec2f,
+  bulletPrefab: {fileID: 50833031076754550, guid: cb7a38c55af8f0647878b30c71feec2f,
     type: 2}
   change_bullet: {fileID: 0}
   switching_bullet: 0

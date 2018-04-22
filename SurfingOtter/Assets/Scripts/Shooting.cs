@@ -7,9 +7,7 @@ public class Shooting : MonoBehaviour
 {
 
     public Transform gunBarrel;         // To hold the transform of the empty object, gun barrel
-    public Rigidbody2D bulletPush;      // To hold the prefab of the push bullet
-    public Rigidbody2D bulletRotate;    // To hold the prefab of the rotate bullet
-    public Rigidbody2D bulletDestroy;   // To hold 
+    public Rigidbody2D bulletPrefab;      // To hold the prefab of the push bullet
     public Text change_bullet;
     public int switching_bullet;
 
@@ -62,17 +60,20 @@ public class Shooting : MonoBehaviour
     {
         if (switching_bullet == 1)
         {
-            bulletInstance = Instantiate(bulletPush, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 255, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
         if (switching_bullet == 2)
         {
-            bulletInstance = Instantiate(bulletRotate, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 255);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
         if (switching_bullet == 3)
         {
-            bulletInstance = Instantiate(bulletDestroy, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance = Instantiate(bulletPrefab, gunBarrel.position, gunBarrel.rotation) as Rigidbody2D;
+            bulletInstance.GetComponent<MeshRenderer>().material.color = new Color(255, 0, 0);
             bulletInstance.AddForce(gunBarrel.right * 1000);
         }
     }
