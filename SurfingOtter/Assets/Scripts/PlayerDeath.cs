@@ -8,7 +8,7 @@ public class PlayerDeath : MonoBehaviour {
     
     private GameObject player;
     private Vector3 playerStartPosition;
-    private int lives;
+    public int lives;
     public Text Lives;
     public AudioSource deathsound;
     public bool death;
