@@ -12,6 +12,8 @@ public class BlockLanded : MonoBehaviour
     {
         sc = GetComponent<CircleCollider2D>();
         landsound = GetComponent<AudioSource>();
+
+        Destroy(gameObject, 180f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
