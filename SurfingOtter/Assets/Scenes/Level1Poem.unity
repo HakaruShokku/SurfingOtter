@@ -144,6 +144,7 @@ MonoBehaviour:
   texts:
   - {fileID: 1327487140}
   index: 0
+  levelName: Level2
 --- !u!114 &310689694
 MonoBehaviour:
   m_ObjectHideFlags: 0

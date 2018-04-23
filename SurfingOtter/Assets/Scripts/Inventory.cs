@@ -13,10 +13,11 @@ public class Inventory : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        inventory = new List<string>(); //initialize the inventory list
+        //inventory = new List<string>(); //initialize the inventory list
         int inCount = PlayerPrefs.GetInt("itemNum");
         if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level2Poem"))
         {
+            inventory = new List<string>();
             PlayerPrefs.DeleteKey("InventoryCount");
             for (int i = 0; i < inCount; i++)
             {

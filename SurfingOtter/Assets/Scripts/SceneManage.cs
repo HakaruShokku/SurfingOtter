@@ -27,6 +27,9 @@ public class SceneManage : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        LoadLevel(toLoad);
+        if (other.gameObject.tag == "Player")
+        {
+            LoadLevel(toLoad);
+        }
     }
 }
