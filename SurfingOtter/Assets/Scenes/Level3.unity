@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 73029838}
   m_Layer: 0
   m_Name: PlatformBrick (44)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -915,7 +915,7 @@ GameObject:
   - component: {fileID: 83719117}
   m_Layer: 0
   m_Name: PlatformBrick (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 119217427}
   m_Layer: 0
   m_Name: PlatformBrick (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2076,7 +2076,7 @@ GameObject:
   - component: {fileID: 152608510}
   m_Layer: 0
   m_Name: PlatformBrick (58)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3455,7 +3455,7 @@ GameObject:
   - component: {fileID: 256746820}
   m_Layer: 0
   m_Name: PlatformBrick (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3791,7 +3791,7 @@ GameObject:
   - component: {fileID: 274425398}
   m_Layer: 0
   m_Name: PlatformBrick (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4363,7 +4363,7 @@ GameObject:
   - component: {fileID: 332781324}
   m_Layer: 0
   m_Name: PlatformBrick (50)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4599,7 +4599,7 @@ GameObject:
   - component: {fileID: 376705819}
   m_Layer: 0
   m_Name: PlatformBrick (39)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4875,7 +4875,7 @@ GameObject:
   - component: {fileID: 410220956}
   m_Layer: 0
   m_Name: PlatformBrick (47)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4938,7 +4938,7 @@ GameObject:
   - component: {fileID: 415818082}
   m_Layer: 0
   m_Name: PlatformBrick (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5293,7 +5293,7 @@ GameObject:
   - component: {fileID: 459802946}
   m_Layer: 0
   m_Name: PlatformBrick (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6920,7 +6920,7 @@ GameObject:
   - component: {fileID: 590021322}
   m_Layer: 0
   m_Name: PlatformBrick (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7602,7 +7602,7 @@ GameObject:
   - component: {fileID: 628930860}
   m_Layer: 0
   m_Name: PlatformBrick (48)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9220,7 +9220,7 @@ GameObject:
   - component: {fileID: 779932448}
   m_Layer: 0
   m_Name: PlatformBrick (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9283,7 +9283,7 @@ GameObject:
   - component: {fileID: 782848433}
   m_Layer: 0
   m_Name: PlatformBrick (60)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9340,7 +9340,7 @@ GameObject:
   - component: {fileID: 783021090}
   m_Layer: 0
   m_Name: PlatformBrick (42)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9694,7 +9694,7 @@ GameObject:
   - component: {fileID: 826062920}
   m_Layer: 0
   m_Name: PlatformBrick (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9976,7 +9976,7 @@ GameObject:
   - component: {fileID: 839836264}
   m_Layer: 0
   m_Name: PlatformBrick (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10617,7 +10617,7 @@ GameObject:
   - component: {fileID: 866498347}
   m_Layer: 0
   m_Name: PlatformBrick (55)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10680,7 +10680,7 @@ GameObject:
   - component: {fileID: 877605947}
   m_Layer: 0
   m_Name: PlatformBrick (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11035,7 +11035,7 @@ GameObject:
   - component: {fileID: 907219066}
   m_Layer: 0
   m_Name: PlatformBrick (57)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11270,7 +11270,7 @@ GameObject:
   - component: {fileID: 922943613}
   m_Layer: 0
   m_Name: PlatformBrick (40)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11479,7 +11479,7 @@ GameObject:
   - component: {fileID: 937981449}
   m_Layer: 0
   m_Name: PlatformBrick (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14444,7 +14444,7 @@ GameObject:
   - component: {fileID: 1229124953}
   m_Layer: 0
   m_Name: PlatformBrick (52)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14507,7 +14507,7 @@ GameObject:
   - component: {fileID: 1229648912}
   m_Layer: 0
   m_Name: PlatformBrick (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14697,7 +14697,7 @@ GameObject:
   - component: {fileID: 1242550754}
   m_Layer: 0
   m_Name: PlatformBrick (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14979,7 +14979,7 @@ GameObject:
   - component: {fileID: 1258940595}
   m_Layer: 0
   m_Name: PlatformBrick (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15042,7 +15042,7 @@ GameObject:
   - component: {fileID: 1259215120}
   m_Layer: 0
   m_Name: PlatformBrick (49)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15205,7 +15205,7 @@ GameObject:
   - component: {fileID: 1281191160}
   m_Layer: 0
   m_Name: PlatformBrick (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15268,7 +15268,7 @@ GameObject:
   - component: {fileID: 1284794135}
   m_Layer: 0
   m_Name: PlatformBrick (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15331,7 +15331,7 @@ GameObject:
   - component: {fileID: 1292716583}
   m_Layer: 0
   m_Name: PlatformBrick (54)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16218,7 +16218,7 @@ GameObject:
   - component: {fileID: 1381174078}
   m_Layer: 0
   m_Name: PlatformBrick (56)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16275,7 +16275,7 @@ GameObject:
   - component: {fileID: 1383258554}
   m_Layer: 0
   m_Name: PlatformBrick (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16939,7 +16939,7 @@ GameObject:
   - component: {fileID: 1485540093}
   m_Layer: 0
   m_Name: PlatformBrick (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17148,7 +17148,7 @@ GameObject:
   - component: {fileID: 1500302094}
   m_Layer: 0
   m_Name: PlatformBrick (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18581,7 +18581,7 @@ GameObject:
   - component: {fileID: 1640609976}
   m_Layer: 0
   m_Name: PlatformBrick (41)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18930,7 +18930,7 @@ GameObject:
   - component: {fileID: 1662316654}
   m_Layer: 0
   m_Name: PlatformBrick (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19725,7 +19725,7 @@ GameObject:
   - component: {fileID: 1737022419}
   m_Layer: 0
   m_Name: PlatformBrick (43)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19782,7 +19782,7 @@ GameObject:
   - component: {fileID: 1737490181}
   m_Layer: 0
   m_Name: PlatformBrick (38)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19985,7 +19985,7 @@ GameObject:
   - component: {fileID: 1765047734}
   m_Layer: 0
   m_Name: PlatformBrick (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20882,7 +20882,7 @@ GameObject:
   - component: {fileID: 1809118314}
   m_Layer: 0
   m_Name: PlatformBrick (59)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21592,7 +21592,7 @@ GameObject:
   - component: {fileID: 1842110607}
   m_Layer: 0
   m_Name: PlatformBrick (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22489,7 +22489,7 @@ GameObject:
   - component: {fileID: 1928127070}
   m_Layer: 0
   m_Name: PlatformBrick (46)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22771,7 +22771,7 @@ GameObject:
   - component: {fileID: 1985166181}
   m_Layer: 0
   m_Name: PlatformBrick (51)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23028,7 +23028,7 @@ GameObject:
   - component: {fileID: 1997782945}
   m_Layer: 0
   m_Name: PlatformBrick (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23310,7 +23310,7 @@ GameObject:
   - component: {fileID: 2024649941}
   m_Layer: 0
   m_Name: PlatformBrick (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23665,7 +23665,7 @@ GameObject:
   - component: {fileID: 2040754601}
   m_Layer: 0
   m_Name: PlatformBrick (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24043,7 +24043,7 @@ GameObject:
   - component: {fileID: 2057298461}
   m_Layer: 0
   m_Name: PlatformBrick
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24962,7 +24962,7 @@ GameObject:
   - component: {fileID: 2114511161}
   m_Layer: 0
   m_Name: PlatformBrick (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
