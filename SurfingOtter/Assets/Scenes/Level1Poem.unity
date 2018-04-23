@@ -155,7 +155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5a946c467cf194a8e3ff6ca6ed575b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: []
+  inventory:
+  - hope
+  - bravery
+  - certainty
   inventoryText: {fileID: 0}
   player: {fileID: 0}
 --- !u!4 &310689695
