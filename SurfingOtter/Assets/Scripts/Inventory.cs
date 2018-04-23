@@ -10,20 +10,22 @@ public class Inventory : MonoBehaviour
     public Text inventoryText;  //text component, where the inventory will be displayed
     public GameObject player;   //player object
 
+   
+
     // Use this for initialization
     void Start()
     {
         inventory = new List<string>(); //initialize the inventory list
         int inCount = PlayerPrefs.GetInt("itemNum");
-        if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level2Poem"))
+        if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level3Poem"))
         {
-            PlayerPrefs.DeleteKey("InventoryCount");
+            PlayerPrefs.DeleteKey("itemNum");
             for (int i = 0; i < inCount; i++)
             {
                 PlayerPrefs.DeleteKey("Inventory" + i);
             }
         }
-        else if ((SceneManager.GetActiveScene().name == "Level1Poem") || (SceneManager.GetActiveScene().name == "Level2Poem") || (SceneManager.GetActiveScene().name == "Level2Poem"))
+        else if ((SceneManager.GetActiveScene().name == "Level1Poem") || (SceneManager.GetActiveScene().name == "Level2Poem") || (SceneManager.GetActiveScene().name == "Level3Poem"))
         {
             for (int i = 0; i < inCount; i++)
             {
