@@ -9,12 +9,17 @@ public class Inventory : MonoBehaviour
     public List<string> inventory;  //list of inventory items: words
     public Text inventoryText;  //text component, where the inventory will be displayed
     public GameObject player;   //player object
+    public GameObject triggerCol;
+    public Text wordsNeedDisplay;
+    public int neededWords;
 
-   
+
 
     // Use this for initialization
     void Start()
     {
+        wordsNeedDisplay.enabled = true;
+        triggerCol.SetActive(false);
         inventory = new List<string>(); //initialize the inventory list
         int inCount = PlayerPrefs.GetInt("itemNum");
         if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level3Poem"))
@@ -47,7 +52,11 @@ public class Inventory : MonoBehaviour
         {
             inventoryText.text = allItems;
         }
-
+        if (inventory.Count >= neededWords)
+        {
+            triggerCol.SetActive(true);
+            wordsNeedDisplay.enabled = false;
+        }
     }
 
     private void OnDestroy()

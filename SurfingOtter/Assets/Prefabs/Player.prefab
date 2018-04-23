@@ -275,7 +275,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: afd9347ee4c3c96459acd921fe351de5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.048
+  m_Volume: 0.03
   m_Pitch: 0.74
   Loop: 0
   Mute: 0
@@ -395,6 +395,9 @@ MonoBehaviour:
   inventory: []
   inventoryText: {fileID: 0}
   player: {fileID: 1385309045609084}
+  triggerCol: {fileID: 0}
+  wordsNeedDisplay: {fileID: 0}
+  neededWords: 0
 --- !u!114 &114164352698404542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -408,7 +411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   armJoint: {fileID: 1151991273269232}
-  Player: {fileID: 0}
+  Player: {fileID: 1385309045609084}
   facingRight: 1
   faceDirect: 0
   count: 0
@@ -423,7 +426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7857909916339e449bc245f421b7dda2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathsound: {fileID: 0}
+  lives: 0
+  Lives: {fileID: 0}
+  deathsound: {fileID: 82928870608083190}
   death: 0
   yHitZone: 0
 --- !u!114 &114376820504025306
