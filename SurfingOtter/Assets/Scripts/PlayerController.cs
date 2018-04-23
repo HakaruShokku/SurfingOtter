@@ -14,15 +14,14 @@ public class PlayerController : MonoBehaviour {
     public bool facingRight;
     public bool faceDirect;
     public int count;
+    Vector3 PlayerScreenPoint;
     // Use this for initialization
     void Start() {
         armJoint = GameObject.Find("ArmJoint");
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = this.GetComponent<Animator>();
-        facingRight = armJoint.GetComponent<Shooting>().facing;
+        facingRight = true;
         count = 100;
-        
-        //Player = GetComponentInChildren<>();
     }
 
     private void HandleMovement(float horizontal)
@@ -35,64 +34,37 @@ public class PlayerController : MonoBehaviour {
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
-        mousePosition = Input.mousePosition;
-        Debug.Log(mousePosition);
         HandleMovement(horizontal);
-
-        //Flip();
-
 
     }
 
-    private void Flip()
-    {
-        //Debug.Log("In Flip");
-        if (true)
+    // Update is called once per frame
+    void Update () {
+        Debug.Log(facingRight);
+        float mouse = Input.mousePosition.x;
+        PlayerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+        Debug.Log(mouse);
+        Debug.Log(PlayerScreenPoint.x);
+        if (mouse < PlayerScreenPoint.x && facingRight == true)
         {
             facingRight = false;
             ChangeDirection();
         }
-        else
+        else if(mouse > PlayerScreenPoint.x && facingRight == false)
         {
             facingRight = true;
+            ChangeDirection();
         }
     }
 
     public void ChangeDirection()
     {
-        transform.localScale = new Vector3(transform.localScale.x * -1, 1, 1);
-        facingRight = false;
-    }
+        Vector3 Scale = transform.localScale;
+        Vector3 armScale = armJoint.transform.localScale;
+        armScale.x *= -1;
+        Scale.x *= -1;
+        transform.localScale = Scale;
+        armJoint.transform.localScale = armScale;
 
-
-    // Update is called once per frame
-    void Update () {
-        count--;
-        if (count <= 0)
-        {
-            Flip();
-            count = 150;
-        }
-        //float horizontal = Input.GetAxis("Horizontal");
-        //HandleMovement(horizontal);
-        // Flip();
-        //if (Input.GetKey(KeyCode.D))
-        //{
-        //    //anim.SetBool("isWalking", true);
-        //    //anim.SetBool("isShooting", false);
-        //    transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
-        //    //sr.flipX = true;
-        //}
-        //else if (Input.GetKey(KeyCode.A))
-        //{
-        //    //anim.SetBool("isWalking", true);
-        //    //anim.SetBool("isShooting", false);
-        //    transform.Translate(new Vector3(-speed * Time.deltaTime, 0, 0));
-        //    //sr.flipX = false;
-        //}
-        //else
-        //{
-        //    //anim.SetBool("isWalking", false);
-        //}
     }
 }

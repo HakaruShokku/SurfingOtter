@@ -22,15 +22,9 @@ public class Shooting : MonoBehaviour
     {
         switching_bullet = 1;
         change_bullet.text = "Bullet Push";
-
-
-        //shootsound = GetComponent<AudioSource>();
         Player = GameObject.Find("Player");
         facing = true;
-
         shootsound = GetComponent<AudioSource>();
-        
-
         bulletCount = 5;
     }
 
@@ -38,9 +32,6 @@ public class Shooting : MonoBehaviour
     void Update()
     {
         ArmRotation();
-
-        DirectionFacing();
-
 
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -135,18 +126,5 @@ public class Shooting : MonoBehaviour
         //}
     }
 
-    public bool DirectionFacing()
-    {
-        if(transform.rotation.z <= .7)
-        {
-            facing = true;
-            return true;
-        }
-        else if(transform.rotation.z > .7)
-        {
-            facing = false;
-            return false;
-        }
-        return false;
-    }
+
 }
