@@ -6,10 +6,12 @@ public class BlockLanded : MonoBehaviour
 {
 
     private CircleCollider2D sc;
-
+    public AudioSource landsound;
+    public int count = 0;
     private void Start()
     {
         sc = GetComponent<CircleCollider2D>();
+        landsound = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,6 +20,11 @@ public class BlockLanded : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerDeath>().deathsound.Play();
             collision.gameObject.GetComponent<PlayerDeath>().death = true;
+        }
+        if (collision.gameObject.tag == "Ground" && count == 0)
+        {
+            landsound.Play();
+            count = 1;
         }
         sc.enabled = false;
     }
