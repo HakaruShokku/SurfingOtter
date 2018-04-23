@@ -18,8 +18,6 @@ public class Inventory : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        wordsNeedDisplay.enabled = true;
-        triggerCol.SetActive(false);
         inventory = new List<string>(); //initialize the inventory list
         int inCount = PlayerPrefs.GetInt("itemNum");
         if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level3Poem"))
@@ -37,6 +35,8 @@ public class Inventory : MonoBehaviour
                 inventory.Add(PlayerPrefs.GetString("Inventory" + i));
             }
         }
+        wordsNeedDisplay.enabled = true;
+        triggerCol.SetActive(false);
     }
 
     // Update is called once per frame
