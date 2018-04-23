@@ -7,10 +7,10 @@ public class PlayerDeath : MonoBehaviour {
     
     private GameObject player;
     private Vector3 playerStartPosition;
-    public AudioSource deathsound;
-    private bool death;
     private int lives;
-    
+
+    public AudioSource deathsound;
+    public bool death;
     public float yHitZone;
 
     // Use this for initialization
@@ -43,26 +43,4 @@ public class PlayerDeath : MonoBehaviour {
             SceneManager.LoadScene("Game Over");
         }
 	}
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        Collider2D collider = collision.collider;
-
-        Vector3 contactPoint = collision.contacts[0].point;
-        Vector3 center = collider.bounds.center;
-
-        if (collision.collider.tag == "Block")
-        {
-
-            float speedOfBlock = collision.relativeVelocity.magnitude;
-
-            if (contactPoint.y + yHitZone < center.y && speedOfBlock > 2)
-            {
-                death = true;
-                deathsound.Play();
-            }
-        }
-    }
-
 }
