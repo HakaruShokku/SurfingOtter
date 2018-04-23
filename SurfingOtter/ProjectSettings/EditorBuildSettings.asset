@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 4e7816c4c825ba54f97f34b5ccb709b1
+  - enabled: 1
+    path: Assets/Scenes/Level1Poem.unity
+    guid: 7b47f586f23dc824cb90ce8b7207ff70
