@@ -15938,7 +15938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f1f83c73d8272448d275b16b41f068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: Game Over
+  toLoad: Level3Poem
 --- !u!1 &1314652330
 GameObject:
   m_ObjectHideFlags: 0
