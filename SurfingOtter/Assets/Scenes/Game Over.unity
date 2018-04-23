@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 127486678}
   - component: {fileID: 127486677}
   - component: {fileID: 127486680}
+  - component: {fileID: 127486681}
   m_Layer: 5
   m_Name: Retry
   m_TagString: Untagged
@@ -260,7 +261,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ItemCollecting
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -307,6 +308,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8f1f83c73d8272448d275b16b41f068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: 
+--- !u!114 &127486681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 127486675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c063db4f0554d94982533ef4cc473b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &212616057
@@ -687,6 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f1f83c73d8272448d275b16b41f068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toLoad: 
 --- !u!1 &1441708077
 GameObject:
   m_ObjectHideFlags: 0

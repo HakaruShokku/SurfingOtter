@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerDeath : MonoBehaviour {
     
     private GameObject player;
     private Vector3 playerStartPosition;
     private int lives;
-
+    public Text Lives;
     public AudioSource deathsound;
     public bool death;
     public float yHitZone;
@@ -18,8 +19,9 @@ public class PlayerDeath : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player");
         playerStartPosition = player.transform.position;
         death = false;
-        lives = 3;
+        lives = PlayerPrefs.GetInt("Lives",5);
         deathsound = GetComponent<AudioSource>();
+        Lives.text = lives.ToString();
     }
 	
 	// Update is called once per frame
@@ -34,6 +36,8 @@ public class PlayerDeath : MonoBehaviour {
             if (lives > 0)
             {
                 lives--;
+                PlayerPrefs.SetInt("Lives", lives);
+                Lives.text = lives.ToString();
                 player.transform.position = playerStartPosition;
                 death = false;
             }
