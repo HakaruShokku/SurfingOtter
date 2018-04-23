@@ -651,6 +651,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114680420812064842, guid: 7ccb654767e8d4e41bbc5241cbd86795,
+        type: 2}
+      propertyPath: toLoad
+      value: Level1Poem
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ccb654767e8d4e41bbc5241cbd86795, type: 2}
   m_IsPrefabParent: 0
