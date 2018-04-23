@@ -9,6 +9,7 @@ public class FillingBlanks : MonoBehaviour
     public Text[] texts;
     public int index;
     public string levelName;
+    public GameObject button;
 
     // Use this for initialization
     void Start()
@@ -21,7 +22,7 @@ public class FillingBlanks : MonoBehaviour
     {
         if (index == texts.Length)
         {
-            SceneManager.LoadScene(levelName);
+            button.SetActive(true);
         }
     }
 

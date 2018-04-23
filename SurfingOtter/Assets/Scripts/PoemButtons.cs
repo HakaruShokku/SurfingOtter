@@ -8,6 +8,7 @@ public class PoemButtons : MonoBehaviour
     public Inventory inv;
     public GameObject buttonPrefab;
     public int xPos, yPos;
+    public int buttonGap;
 
     // Use this for initialization
     void Start()
@@ -19,7 +20,7 @@ public class PoemButtons : MonoBehaviour
             GameObject buttonInstance = Instantiate(buttonPrefab, transform.position, Quaternion.identity, gameObject.transform);
             buttonInstance.transform.position = new Vector2(xPos, yPos);
             buttonInstance.GetComponentInChildren<Text>().text = inv.inventory[i];
-            xPos += 4;
+            xPos += buttonGap;
         }
     }
 
