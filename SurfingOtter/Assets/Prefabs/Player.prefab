@@ -91,7 +91,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1385309045609084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.03, y: -2.728, z: 0}
+  m_LocalPosition: {x: -7.03, y: -2.448, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4362259904188552}
@@ -105,7 +105,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1203460952347350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.001, y: 0.198, z: 0}
+  m_LocalPosition: {x: 0.099, y: 0.001, z: 0}
   m_LocalScale: {x: 0.23423047, y: 0.062117778, z: 1}
   m_Children:
   - {fileID: 4772812017748148}
@@ -119,7 +119,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1151991273269232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.128, y: -0.074, z: 0}
+  m_LocalPosition: {x: 0.006, y: 0.009, z: 0}
   m_LocalScale: {x: 0.98758, y: 1, z: 0}
   m_Children:
   - {fileID: 4196734509972852}
@@ -212,18 +212,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.023186445, y: -0.006955743}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.11, y: 0.64}
+    oldSize: {x: 0.32, y: 1.73}
     newSize: {x: 0.11, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.11, y: 0.64}
+  m_Size: {x: 0.25839376, y: 1.7575929}
   m_EdgeRadius: 0
 --- !u!65 &65001117785835858
 BoxCollider:
@@ -353,7 +353,7 @@ MonoBehaviour:
   switching_bullet: 0
   Player: {fileID: 1385309045609084}
   bulletCount: 0
-  facing: 0
+  facing: 1
 --- !u!114 &114098635427738626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -381,8 +381,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   armJoint: {fileID: 1151991273269232}
-  facingRight: 0
+  Player: {fileID: 0}
+  facingRight: 1
   faceDirect: 0
+  count: 0
 --- !u!114 &114376820504025306
 MonoBehaviour:
   m_ObjectHideFlags: 1
