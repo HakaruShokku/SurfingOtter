@@ -15,23 +15,23 @@ public class Inventory : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //inventory = new List<string>(); //initialize the inventory list
-        //int inCount = PlayerPrefs.GetInt("itemNum");
-        //if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level3Poem"))
-        //{
-        //    PlayerPrefs.DeleteKey("itemNum");
-        //    for (int i = 0; i < inCount; i++)
-        //    {
-        //        PlayerPrefs.DeleteKey("Inventory" + i);
-        //    }
-        //}
-        //else if ((SceneManager.GetActiveScene().name == "Level1Poem") || (SceneManager.GetActiveScene().name == "Level2Poem") || (SceneManager.GetActiveScene().name == "Level3Poem"))
-        //{
-        //    for (int i = 0; i < inCount; i++)
-        //    {
-        //        inventory.Add(PlayerPrefs.GetString("Inventory" + i));
-        //    }
-        //}
+        inventory = new List<string>(); //initialize the inventory list
+        int inCount = PlayerPrefs.GetInt("itemNum");
+        if ((SceneManager.GetActiveScene().name != "Level1Poem") && (SceneManager.GetActiveScene().name != "Level2Poem") && (SceneManager.GetActiveScene().name != "Level3Poem"))
+        {
+            PlayerPrefs.DeleteKey("itemNum");
+            for (int i = 0; i < inCount; i++)
+            {
+                PlayerPrefs.DeleteKey("Inventory" + i);
+            }
+        }
+        else if ((SceneManager.GetActiveScene().name == "Level1Poem") || (SceneManager.GetActiveScene().name == "Level2Poem") || (SceneManager.GetActiveScene().name == "Level3Poem"))
+        {
+            for (int i = 0; i < inCount; i++)
+            {
+                inventory.Add(PlayerPrefs.GetString("Inventory" + i));
+            }
+        }
     }
 
     // Update is called once per frame

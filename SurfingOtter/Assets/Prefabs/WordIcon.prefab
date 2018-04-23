@@ -71,8 +71,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612349266745748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 205.455, y: 140.926, z: 0}
-  m_LocalScale: {x: 4.621192, y: 4.621197, z: 4.621197}
+  m_LocalPosition: {x: 2.484, y: 0.709, z: 3.35}
+  m_LocalScale: {x: 1.0155845, y: 1.0794275, z: 4.621197}
   m_Children:
   - {fileID: 224302225273565486}
   m_Father: {fileID: 0}
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb6c9d6001a3ae47912054e6a1d0bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  word: bravery
+  word: victory
   display: {fileID: 114047592200339026}
 --- !u!114 &114304767508997970
 MonoBehaviour:
@@ -282,7 +282,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1839747993609358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 23.3}
   m_LocalScale: {x: 0.14287071, y: 0.1428706, z: 0.1428706}
   m_Children: []
   m_Father: {fileID: 224302225273565486}
