@@ -1105,7 +1105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a768df476fdd5041a4a0749fa523f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 247
+  xMax: 300
   yMax: 140.49
   xMin: 184.7
   yMin: 140.49
