@@ -14,10 +14,14 @@ public class SpawningBlocks : MonoBehaviour {
     private int randomBox;              // To hold an integer for the random box
     private int spawn_box_timer;        // To hold an the counter until next box spawns.
 
+
+    [SerializeField]
+    private float secondsToSpawn;
+
     // Use this for initialization
     void Start()
     {
-        spawn_box_timer = 180;  // set timer to 3 seconds
+        spawn_box_timer = (int)(60*secondsToSpawn);  // set timer to 3 seconds
         player = GameObject.FindGameObjectWithTag("Player");    // set player to the tag of "Player"
     }
 
@@ -32,7 +36,7 @@ public class SpawningBlocks : MonoBehaviour {
         if(spawn_box_timer <= 0)
         {
             SpawnBox();             // spawn box
-            spawn_box_timer = 180;  // return timer of the spawn_box_timer
+            spawn_box_timer = (int)(60*secondsToSpawn);  // return timer of the spawn_box_timer
         }
     }
     

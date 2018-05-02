@@ -2532,6 +2532,11 @@ Prefab:
       propertyPath: spawn_locations.Array.data[5]
       value: 
       objectReference: {fileID: 752865518}
+    - target: {fileID: 114953352379561464, guid: de7592e89d2817041b104311a55ae1a4,
+        type: 2}
+      propertyPath: secondsToSpawn
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: de7592e89d2817041b104311a55ae1a4, type: 2}
   m_IsPrefabParent: 0

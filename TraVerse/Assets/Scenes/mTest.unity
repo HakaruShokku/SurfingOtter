@@ -688,6 +688,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 82928870608083190, guid: 82d01898fbb260744b04e89b45f81430,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82d01898fbb260744b04e89b45f81430, type: 2}
   m_IsPrefabParent: 0
@@ -777,6 +782,9 @@ MonoBehaviour:
   inventory: []
   inventoryText: {fileID: 0}
   player: {fileID: 1637518432}
+  triggerCol: {fileID: 0}
+  wordsNeedDisplay: {fileID: 0}
+  neededWords: 0
 --- !u!50 &1637518437
 Rigidbody2D:
   serializedVersion: 4
